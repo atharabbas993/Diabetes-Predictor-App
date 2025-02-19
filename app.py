@@ -15,7 +15,7 @@ from keras.callbacks import EarlyStopping
 # Load Dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv('D:\Streamlit Applications\Diabetes Predictor\diabetes_prediction_dataset.csv')
+    return pd.read_csv('diabetes_prediction_dataset.csv')
 
 data_frame = load_data()
 
